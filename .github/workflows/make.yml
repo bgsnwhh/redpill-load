@@ -92,7 +92,7 @@ jobs:
           make clean
           see_below
           # for DS3615xs
-          #sed -i 's/   -std=gnu89$/   -std=gnu89 $(call cc-option,-fno-PIE)/' Makefile
+          sed -i 's/   -std=gnu89$/   -std=gnu89 $(call cc-option,-fno-PIE)/' Makefile
           sed -i 's/ ld -/ ${CROSS_COMPILE}ld -/' ../recreate-zImage/rebuild_kernel.sh
           sed -i 's/(ld -/(${CROSS_COMPILE}ld -/' ../recreate-zImage/rebuild_kernel.sh
           sed -i 's/ gcc / ${CROSS_COMPILE}gcc /' ../recreate-zImage/rebuild_kernel.sh

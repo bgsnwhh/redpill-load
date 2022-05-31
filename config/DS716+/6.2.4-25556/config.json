@@ -2,26 +2,26 @@
   "os": {
     "id": "ds716p_25556",
     "pat_url": "https://global.download.synology.com/download/DSM/release/6.2.4/25556/DSM_DS716%2B_25556.pat",
-    "sha256": "ee021d9cd012a434578309845e3af999a43f81a7887ceec7319e6005ac5930d4"
+    "sha256": "4744bb1137f8e6c90984253c2d8c940b7ae9a8db00f2f7f9a8f22a51af5c903d"
   },
 
   "files": {
     "zlinux": {
       "name": "zImage",
-      "sha256": "3f0f954c9bb6ef0fa195e244f6219ecb3c7a7b297ff6d584a119437eec612e88"
+      "sha256": "1e7adcaa37bd88ce1e9725b61adec5e1bd3c51ceeae986e038418838912d0796"
     },
     "ramdisk": {
       "name": "rd.gz",
-      "sha256": "bdb6a1b0f48a5ed713b9095db2b5976971cf714425982a1b5782f70749231324"
+      "sha256": "83f362e611aca1d0402a43bbdc9b4a8d713ef8b7cf37733a5d8abc37fabfab34"
     },
     "vmlinux": {
-      "sha256": "981fb9934beb4de02b553463542dc1154c8c14bdc073b92749979805c45c78a1"
+      "sha256": "6e229f0ef911bedb3f07e585bd3c58bcca7474f61215f0d2c2e64ed5846c7aa2"
     }
   },
 
   "patches": {
     "zlinux": [
-      "zImage-001-918p-25556-ramdisk-and-flag-NOP.bsp"
+      "zImage-001-716p-25556-ramdisk-and-flag-NOP.bsp"
     ],
     "ramdisk": [
       "@@@COMMON@@@/ramdisk-001-disable-root-pwd.patch",
@@ -54,7 +54,7 @@
       "mac1": "",
       "netif_num": 1,
 
-      "syno_hw_version": "DS918+",
+      "syno_hw_version": "DS716+",
       "syno_hdd_powerup_seq": 1,
       "HddHotplug": 0,
       "vender_format_version": 2,
@@ -68,7 +68,7 @@
     },
 
     "menu_entries": {
-      "RedPill DS918+ v6.2.4-25556 (USB, Verbose)": {
+      "RedPill DS716+ v6.2.4-25556 (USB, Verbose)": {
         "options": [
           "savedefault",
           "set root=(hd0,msdos1)",
@@ -84,7 +84,7 @@
           "log_buf_len": "32M"
         }
       },
-      "RedPill DS918+ v6.2.4-25556 (SATA, Verbose)": {
+      "RedPill DS716+ v6.2.4-25556 (SATA, Verbose)": {
         "options": [
           "savedefault",
           "set root=(hd0,msdos1)",
@@ -108,7 +108,7 @@
   "extra": {
     "compress_rd": false,
     "ramdisk_copy": {
-      "@@@EXT@@@/rp-lkm/redpill-linux-v4.4.59+.ko": "usr/lib/modules/rp.ko",
+      "@@@EXT@@@/rp-lkm/redpill-linux-v3.10.105.ko": "usr/lib/modules/rp.ko",
       "@@@COMMON@@@/iosched-trampoline.sh": "usr/sbin/modprobe"
     },
     "bootp1_copy": {

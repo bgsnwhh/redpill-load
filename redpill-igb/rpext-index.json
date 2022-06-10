@@ -4,8 +4,8 @@
   "info": {
     "name": "igb",
     "description": "Adds Intel(R) Gigabit Ethernet Network Driver Support",
-    "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/bgsnwhh/rp-ext/tree/main/igb",
+    "author_url": "https://github.com/bgsn",
+    "packer_url": "https://github.com/bgsnwhh/redpill-load/tree/develop/redpill-igb",
     "help_url": "<todo>"
   },
   "releases": {

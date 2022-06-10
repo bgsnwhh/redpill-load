@@ -31,7 +31,7 @@ didn't happen to us but hey...).
  - `synoinfo` is a key=>value structure where you can override any `synoinfo` options (e.g. `"SataPortMap": "..."`)
  - If you want to see all options available take a look at [`user_config.FULL-EXAMPLE.json`](user_config.FULL-EXAMPLE.json)
 
-3. Run `./build-loader.sh <hw_version> <os_version>` (e.g. `./build-loader.sh 'DS918+' '6.2.4-25556'`)  
+3. Run `./build-loader.sh <hw_version> <os_version>` (e.g. `./build-loader.sh 'DS918+' '6.2.4-25556' './build-loader.sh 'DS716+' '7.0.1-42218'`)  
 It will download all files needed and complain if something isn't right
 
 4. Burn the image onto a USB stick  

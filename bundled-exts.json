@@ -1,4 +1,4 @@
 {
-  "thethorgroup.virtio": "https://github.com/bgsnwhh/redpill-load/raw/develop/redpill-virtio/rpext-index.json",
+  "ds716.igb": "https://raw.githubusercontent.com/bgsnwhh/redpill-load/develop/redpill-igb/rpext-index.json",
   "thethorgroup.boot-wait": "https://github.com/bgsnwhh/redpill-load/raw/develop/redpill-boot-wait/rpext-index.json"
 }

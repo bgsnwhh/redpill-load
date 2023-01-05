@@ -1,7 +1,7 @@
 {
   "os": {
-    "id": "ds920p_42218",
-    "pat_url": "https://global.download.synology.com/download/DSM/release/7.0.1/42218/DSM_DS920%2B_42218.pat",
+    "id": "ds220p_42218",
+    "pat_url": "https://global.download.synology.com/download/DSM/release/7.0.1/42218/DSM_DS220%2B_42218.pat",
     "sha256": "bf32172ee39399d22df4894156dd357be21c62f49290ae274582d70f20e1b8bd"
   },
 
